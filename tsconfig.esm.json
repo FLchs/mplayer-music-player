@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["node_modules", "src/tests/**/*.test.ts"],
+  "compilerOptions": {
+    "module": "ES2020",
+    "outDir": "./lib/esm"
+  }
+}
